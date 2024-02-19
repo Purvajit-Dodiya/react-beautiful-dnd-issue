@@ -1,0 +1,25 @@
+body,html,.root{
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+ul{
+  list-style: none;
+  margin:50px;
+  width: 700px;
+  border-radius: 5px;
+
+}
+.context_container>ul{
+  max-height: 200px;
+  overflow-y: scroll;
+}
+
+
+.draggable_container{
+  max-height: 200px;
+  overflow-y: auto;
+
+}
