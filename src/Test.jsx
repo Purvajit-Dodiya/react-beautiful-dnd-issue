@@ -108,8 +108,8 @@ class Test extends Component {
             className="context_container"
             style={{
               backgroundColor: this.state.isDragging ? "bisque" : "lightblue",
-              // height: this.state.isDragging ? "" : "400px",
-              height: "400px",
+              height: this.state.isDragging ? "" : "400px",
+              // height: "400px",
               overflowY: "scroll",
               // overflowY: this.state.isDragging ? "hidden" : "scroll",
             }}
